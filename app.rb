@@ -20,11 +20,10 @@ module Site
 
     get '/' do
       @title = "Willmouse's Homepage"
-      haml :index
+      erb :index
     end
     get '/post/:post_name' do |post_name|
       "you are at #{post_name}"
-      # haml :psot
     end
   end
 end

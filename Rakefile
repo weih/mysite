@@ -12,5 +12,5 @@ end
 desc 'run server.'
 task :bootstrap do
   system 'bundle exec shotgun config.ru&'
-  system 'sass --watch -q stylesheets:public/stylesheets&'
+  # system 'sass --watch -q stylesheets:public/stylesheets&'
 end
