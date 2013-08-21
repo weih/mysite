@@ -1,3 +1,3 @@
 require './app.rb'
 
-run SinatraBone::App
+run Site::App
