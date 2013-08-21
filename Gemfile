@@ -3,6 +3,7 @@ source 'http://mirrors.tuna.tsinghua.edu.cn/rubygems/'
 gem 'sinatra'
 gem 'haml'
 gem 'sass'
+gem 'redcarpet'
 
 group :development do
   gem 'shotgun'
