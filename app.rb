@@ -1,5 +1,6 @@
 require 'sinatra/base'
 require 'redcarpet'
+require 'pry' if ENV['RACK_ENV'] == 'development'
 
 module Sinatra
   module MarkdownRender

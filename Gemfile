@@ -8,6 +8,7 @@ gem 'redcarpet'
 group :development do
   gem 'shotgun'
   gem 'thin'
+  gem 'pry'
 end
 
 group :test do

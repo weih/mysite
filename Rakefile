@@ -10,7 +10,7 @@ Rake::TestTask.new(:test) do |t|
 end
 
 desc 'run server.'
-task :bootstrap do
-  system 'bundle exec shotgun config.ru&'
+task :server do
+  system 'bundle exec shotgun config.ru'
   # system 'sass --watch -q stylesheets:public/stylesheets&'
 end
