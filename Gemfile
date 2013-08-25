@@ -1,4 +1,4 @@
-source 'http://mirrors.tuna.tsinghua.edu.cn/rubygems/'
+source 'http://ruby.taobao.org'
 
 gem 'sinatra'
 gem 'haml'

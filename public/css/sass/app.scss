@@ -1,7 +1,10 @@
-@import 'bourbon/bourbon';
-@import "neat/neat";
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
 
 body {
-  color: #ff00ff;
-  font-size: golden-ratio(14px,  1);
-}
+  color: #eb358c;
+  font-size: 22px;
+  font-size: 22.652px;
+  margin: 50px; }
