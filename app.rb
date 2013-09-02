@@ -14,13 +14,30 @@ module Sinatra
   helpers MarkdownRender
 end
 
+# module Rack
+#   class CommonLogger
+#     def call(env)
+#       # do nothing
+#       @app.call(env)
+#     end
+#   end
+# end
+
 module Site
   class App < Sinatra::Base
     helpers Sinatra::MarkdownRender
 
     set :articels_folder, "#{root}/articles"
+    disable :logging
+
+    # disable :show_exceptions
+
+    # error ::Exception do
+    #   raise
+    # end
 
     get '/' do
+      raise 'oop'
       @title = "Willmouse's Homepage"
       erb :index
     end
