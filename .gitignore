@@ -5,3 +5,5 @@
 /pkg
 /doc/api
 Gemfile.lock
+/tmp
+/tmp/*
